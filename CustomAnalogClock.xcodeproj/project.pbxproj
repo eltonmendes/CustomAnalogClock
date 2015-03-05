@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC5649661AA7E018007D9C79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5649651AA7E018007D9C79 /* main.m */; };
+		EC5649691AA7E018007D9C79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5649681AA7E018007D9C79 /* AppDelegate.m */; };
+		EC56496C1AA7E018007D9C79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56496B1AA7E018007D9C79 /* ViewController.m */; };
+		EC56496F1AA7E018007D9C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC56496D1AA7E018007D9C79 /* Main.storyboard */; };
+		EC5649711AA7E018007D9C79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5649701AA7E018007D9C79 /* Images.xcassets */; };
+		EC5649741AA7E018007D9C79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5649721AA7E018007D9C79 /* LaunchScreen.xib */; };
+		EC5649801AA7E018007D9C79 /* CustomAnalogClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56497F1AA7E018007D9C79 /* CustomAnalogClockTests.m */; };
+		EC56498C1AA7E02E007D9C79 /* CustomAnalogClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56498B1AA7E02E007D9C79 /* CustomAnalogClockView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC56497A1AA7E018007D9C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5649581AA7E018007D9C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC56495F1AA7E018007D9C79;
+			remoteInfo = CustomAnalogClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC5649601AA7E018007D9C79 /* CustomAnalogClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAnalogClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5649641AA7E018007D9C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5649651AA7E018007D9C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC5649671AA7E018007D9C79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC5649681AA7E018007D9C79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC56496A1AA7E018007D9C79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC56496B1AA7E018007D9C79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC56496E1AA7E018007D9C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC5649701AA7E018007D9C79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC5649731AA7E018007D9C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC5649791AA7E018007D9C79 /* CustomAnalogClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAnalogClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC56497E1AA7E018007D9C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC56497F1AA7E018007D9C79 /* CustomAnalogClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAnalogClockTests.m; sourceTree = "<group>"; };
+		EC56498A1AA7E02E007D9C79 /* CustomAnalogClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnalogClockView.h; sourceTree = "<group>"; };
+		EC56498B1AA7E02E007D9C79 /* CustomAnalogClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnalogClockView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC56495D1AA7E018007D9C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5649761AA7E018007D9C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5649571AA7E018007D9C79 = {
+			isa = PBXGroup;
+			children = (
+				EC5649621AA7E018007D9C79 /* CustomAnalogClock */,
+				EC56497C1AA7E018007D9C79 /* CustomAnalogClockTests */,
+				EC5649611AA7E018007D9C79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5649611AA7E018007D9C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5649601AA7E018007D9C79 /* CustomAnalogClock.app */,
+				EC5649791AA7E018007D9C79 /* CustomAnalogClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5649621AA7E018007D9C79 /* CustomAnalogClock */ = {
+			isa = PBXGroup;
+			children = (
+				EC5649891AA7E020007D9C79 /* CustomAnalogClockView */,
+				EC5649671AA7E018007D9C79 /* AppDelegate.h */,
+				EC5649681AA7E018007D9C79 /* AppDelegate.m */,
+				EC56496A1AA7E018007D9C79 /* ViewController.h */,
+				EC56496B1AA7E018007D9C79 /* ViewController.m */,
+				EC56496D1AA7E018007D9C79 /* Main.storyboard */,
+				EC5649701AA7E018007D9C79 /* Images.xcassets */,
+				EC5649721AA7E018007D9C79 /* LaunchScreen.xib */,
+				EC5649631AA7E018007D9C79 /* Supporting Files */,
+			);
+			path = CustomAnalogClock;
+			sourceTree = "<group>";
+		};
+		EC5649631AA7E018007D9C79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5649641AA7E018007D9C79 /* Info.plist */,
+				EC5649651AA7E018007D9C79 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC56497C1AA7E018007D9C79 /* CustomAnalogClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC56497F1AA7E018007D9C79 /* CustomAnalogClockTests.m */,
+				EC56497D1AA7E018007D9C79 /* Supporting Files */,
+			);
+			path = CustomAnalogClockTests;
+			sourceTree = "<group>";
+		};
+		EC56497D1AA7E018007D9C79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC56497E1AA7E018007D9C79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC5649891AA7E020007D9C79 /* CustomAnalogClockView */ = {
+			isa = PBXGroup;
+			children = (
+				EC56498A1AA7E02E007D9C79 /* CustomAnalogClockView.h */,
+				EC56498B1AA7E02E007D9C79 /* CustomAnalogClockView.m */,
+			);
+			name = CustomAnalogClockView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC56495F1AA7E018007D9C79 /* CustomAnalogClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5649831AA7E018007D9C79 /* Build configuration list for PBXNativeTarget "CustomAnalogClock" */;
+			buildPhases = (
+				EC56495C1AA7E018007D9C79 /* Sources */,
+				EC56495D1AA7E018007D9C79 /* Frameworks */,
+				EC56495E1AA7E018007D9C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomAnalogClock;
+			productName = CustomAnalogClock;
+			productReference = EC5649601AA7E018007D9C79 /* CustomAnalogClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5649781AA7E018007D9C79 /* CustomAnalogClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5649861AA7E018007D9C79 /* Build configuration list for PBXNativeTarget "CustomAnalogClockTests" */;
+			buildPhases = (
+				EC5649751AA7E018007D9C79 /* Sources */,
+				EC5649761AA7E018007D9C79 /* Frameworks */,
+				EC5649771AA7E018007D9C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC56497B1AA7E018007D9C79 /* PBXTargetDependency */,
+			);
+			name = CustomAnalogClockTests;
+			productName = CustomAnalogClockTests;
+			productReference = EC5649791AA7E018007D9C79 /* CustomAnalogClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5649581AA7E018007D9C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Mendes;
+				TargetAttributes = {
+					EC56495F1AA7E018007D9C79 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EC5649781AA7E018007D9C79 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EC56495F1AA7E018007D9C79;
+					};
+				};
+			};
+			buildConfigurationList = EC56495B1AA7E018007D9C79 /* Build configuration list for PBXProject "CustomAnalogClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC5649571AA7E018007D9C79;
+			productRefGroup = EC5649611AA7E018007D9C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC56495F1AA7E018007D9C79 /* CustomAnalogClock */,
+				EC5649781AA7E018007D9C79 /* CustomAnalogClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC56495E1AA7E018007D9C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56496F1AA7E018007D9C79 /* Main.storyboard in Resources */,
+				EC5649741AA7E018007D9C79 /* LaunchScreen.xib in Resources */,
+				EC5649711AA7E018007D9C79 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5649771AA7E018007D9C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC56495C1AA7E018007D9C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56496C1AA7E018007D9C79 /* ViewController.m in Sources */,
+				EC5649691AA7E018007D9C79 /* AppDelegate.m in Sources */,
+				EC56498C1AA7E02E007D9C79 /* CustomAnalogClockView.m in Sources */,
+				EC5649661AA7E018007D9C79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5649751AA7E018007D9C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5649801AA7E018007D9C79 /* CustomAnalogClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC56497B1AA7E018007D9C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC56495F1AA7E018007D9C79 /* CustomAnalogClock */;
+			targetProxy = EC56497A1AA7E018007D9C79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC56496D1AA7E018007D9C79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC56496E1AA7E018007D9C79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC5649721AA7E018007D9C79 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5649731AA7E018007D9C79 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5649811AA7E018007D9C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC5649821AA7E018007D9C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5649841AA7E018007D9C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomAnalogClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC5649851AA7E018007D9C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomAnalogClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC5649871AA7E018007D9C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomAnalogClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomAnalogClock.app/CustomAnalogClock";
+			};
+			name = Debug;
+		};
+		EC5649881AA7E018007D9C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomAnalogClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomAnalogClock.app/CustomAnalogClock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC56495B1AA7E018007D9C79 /* Build configuration list for PBXProject "CustomAnalogClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5649811AA7E018007D9C79 /* Debug */,
+				EC5649821AA7E018007D9C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5649831AA7E018007D9C79 /* Build configuration list for PBXNativeTarget "CustomAnalogClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5649841AA7E018007D9C79 /* Debug */,
+				EC5649851AA7E018007D9C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC5649861AA7E018007D9C79 /* Build configuration list for PBXNativeTarget "CustomAnalogClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5649871AA7E018007D9C79 /* Debug */,
+				EC5649881AA7E018007D9C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5649581AA7E018007D9C79 /* Project object */;
+}
